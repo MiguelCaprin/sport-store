@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Air Jordan 1 Retro",
+      "brand": "Jordan",
+      "price": 250,
+      "image": "https://example.com/jordan1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Max 90",
+      "brand": "Nike",
+      "price": 150,
+      "image": "https://example.com/airmax90.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Adidas UltraBoost",
+      "brand": "Adidas",
+      "price": 180,
+      "image": "https://example.com/ultraboost.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Nike Air Force 1",
+      "brand": "Nike",
+      "price": 120,
+      "image": "https://example.com/airforce1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Adidas Yeezy Boost 350",
+      "brand": "Adidas",
+      "price": 300,
+      "image": "https://example.com/yeezy350.jpg"
+    }
+  ]
+  

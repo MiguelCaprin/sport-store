@@ -1,0 +1,75 @@
+/* Estilo general del Footer */
+.footer {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+    padding: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .footer h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffcc00;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer ul li a:hover {
+    color: #ffcc00;
+    text-shadow: 0 0 5px #ffcc00, 0 0 10px #ffcc00;
+  }
+  
+  .social-links i {
+    margin-right: 8px;
+  }
+  
+  .footer-bottom {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #aaa;
+  }
+  
+  .footer-bottom p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 1rem;
+    }
+  
+    .footer-section {
+      margin-bottom: 2rem;
+    }
+  
+    .footer h3 {
+      font-size: 1.8rem;
+    }
+  
+    .footer ul li a {
+      font-size: 1.1rem;
+    }
+  }
+  

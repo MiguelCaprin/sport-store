@@ -1,0 +1,9 @@
+/* App.css o en tu index.css */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.App {
+  text-align: center;
+  color: blue;
+}
+

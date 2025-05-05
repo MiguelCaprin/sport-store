@@ -1,0 +1,36 @@
+/* src/css/ImageSlider.css */
+
+.slider-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Para mejor visual, pero podés usar "contain" si querés ver toda la imagen */
+  object-position: top; /* Opcional si querés enfocar desde arriba */
+  border-radius: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.slide-caption {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
