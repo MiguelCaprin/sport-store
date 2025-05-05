@@ -1,17 +1,21 @@
 {
   "files": {
     "main.css": "/sport-store/static/css/main.7356eacb.css",
-    "main.js": "/sport-store/static/js/main.b28da036.js",
+    "main.js": "/sport-store/static/js/main.826d78e0.js",
+    "static/media/mj-jordan.jpg": "/sport-store/static/media/mj-jordan.9252162d022fdde199cb.jpg",
+    "static/media/logo.png": "/sport-store/static/media/logo.1f7d531f9617e90a09ad.png",
+    "static/media/cr7-nike.jpg": "/sport-store/static/media/cr7-nike.7a9eeb7fe2b39cca3a21.jpg",
+    "static/media/cart.png": "/sport-store/static/media/cart.f7e960d707f838d65ea8.png",
     "static/media/slick.svg": "/sport-store/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/sport-store/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/sport-store/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/sport-store/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sport-store/index.html",
     "main.7356eacb.css.map": "/sport-store/static/css/main.7356eacb.css.map",
-    "main.b28da036.js.map": "/sport-store/static/js/main.b28da036.js.map"
+    "main.826d78e0.js.map": "/sport-store/static/js/main.826d78e0.js.map"
   },
   "entrypoints": [
     "static/css/main.7356eacb.css",
-    "static/js/main.b28da036.js"
+    "static/js/main.826d78e0.js"
   ]
 }
