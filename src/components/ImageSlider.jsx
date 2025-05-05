@@ -1,7 +1,8 @@
-// src/components/ImageSlider.jsx
 import React from 'react';
 import Slider from 'react-slick';
-import '../css/ImageSlider.css'; // Asegúrate de tener el archivo CSS creado
+import '../css/ImageSlider.css'; // CSS del slider
+import cr7 from '../images/cr7-nike.jpg';
+import mj from '../images/mj-jordan.jpg';
 
 const ImageSlider = () => {
   const settings = {
@@ -17,7 +18,7 @@ const ImageSlider = () => {
 
   const slides = [
     {
-      image: 'cr7-nike.jpg',  // Solo el nombre de la imagen, no /public/
+      image: cr7,
       alt: 'Cristiano Ronaldo - Nike',
       brand: 'Nike'
     },
@@ -27,7 +28,7 @@ const ImageSlider = () => {
       brand: 'Adidas'
     },
     {
-      image: 'mj-jordan.jpg',
+      image: mj,
       alt: 'Michael Jordan - Jordan',
       brand: 'Jordan'
     }
@@ -48,3 +49,4 @@ const ImageSlider = () => {
 };
 
 export default ImageSlider;
+

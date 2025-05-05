@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom';
 import ImageSlider from './ImageSlider';
 import '../css/Inicio.css';
 
+// ✅ Importación de los logos desde src/images
+import nikeLogo from '../images/nike-logo.png';
+import adidasLogo from '../images/adidas-logo.png';
+import jordanLogo from '../images/jordan-logo.png';
+
 const Inicio = () => {
   return (
     <div className="inicio-container">
@@ -18,13 +23,13 @@ const Inicio = () => {
         {/* Logos de las marcas, cada uno con un link a la categoría */}
         <div className="brand-logos">
           <Link to="/categoria/nike">
-            <img src="/nike-logo.png" alt="Nike" />
+            <img src={nikeLogo} alt="Nike" />
           </Link>
           <Link to="/categoria/adidas">
-            <img src="/adidas-logo.png" alt="Adidas" />
+            <img src={adidasLogo} alt="Adidas" />
           </Link>
           <Link to="/categoria/jordan">
-            <img src="/jordan-logo.png" alt="Jordan" />
+            <img src={jordanLogo} alt="Jordan" />
           </Link>
         </div>
 
@@ -36,6 +41,7 @@ const Inicio = () => {
 };
 
 export default Inicio;
+
 
 
 
