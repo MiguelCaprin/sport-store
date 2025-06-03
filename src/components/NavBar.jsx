@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import '../css/NavBar.css';
 
-// ✅ Importa las imágenes desde src/images/
 import logo from '../images/logo.png';
-import cartIcon from '../images/cart.png';  // Importación de la imagen del carrito
+import cartIcon from '../images/cart.png';
 
 const NavBar = () => {
   const { cart } = useCart();
@@ -36,5 +35,8 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+
+
 
 
