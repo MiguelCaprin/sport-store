@@ -23,7 +23,7 @@ const PrivateRoute = ({ children }) => {
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/sport-store">
         <ScrollToTop />
         <NavBar />
 
@@ -79,5 +79,4 @@ function App() {
 }
 
 export default App;
-
 
