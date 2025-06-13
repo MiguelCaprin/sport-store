@@ -6,7 +6,7 @@
   align-items: center;
   background: linear-gradient(135deg, #1f1c2c, #928dab);
   color: white;
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 3rem; /* Más espacio a los lados */
   font-family: 'Bebas Neue', sans-serif;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
   position: sticky;
@@ -74,12 +74,19 @@
   transform: scale(1.1);
 }
 
+/* Carrito */
 .cart-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   position: relative;
-  margin-right: 1.5rem;
+  margin-right: 2rem; /* Para que no quede tan pegado */
+}
+
+.cart-link {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .cart-icon-img {
@@ -115,11 +122,74 @@
   100% { transform: translate(50%, -50%) scale(1); }
 }
 
-/* Media Query para celulares (pantallas ≤ 600px) */
+/* Sección usuario */
+.auth-container {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem; /* Para que no esté pegado */
+}
+
+.user-name {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-shadow: 0 0 5px #ffcc00;
+  margin-right: 12px;
+}
+
+.logout-button {
+  background-color: #ffcc00;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.4rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 8px #ffcc00;
+}
+
+.logout-button:hover {
+  background-color: #ffcc00;
+  box-shadow: 0 0 15px #ffcc00;
+}
+
+/* Botón iniciar sesión con temática superheroica */
+.login-link {
+  background: linear-gradient(45deg, #b08109, #0d47a1);
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  text-decoration: none;
+  box-shadow:
+    0 0 6px #ffcc00,
+    0 0 12px #0d47a1;
+  border: 2px solid #ffcc00;
+  transition: all 0.4s ease;
+  margin-left: 1rem;
+}
+
+.login-link:hover {
+  background: linear-gradient(45deg, #f7c201, #1976d2);
+  box-shadow:
+    0 0 12px #ffcc00,
+    0 0 24px #1976d2,
+    0 0 40px #ffcc00;
+  color: #fff;
+  transform: scale(1.08);
+  border-color: #ffcc00;
+  text-shadow: 0 0 10px #fff;
+}
+
+/* Media Query para móviles */
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
   }
 
   .logo {
@@ -157,4 +227,27 @@
     top: -4px;
     right: -8px;
   }
+
+  .auth-container {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .user-name {
+    font-size: 1.2rem;
+  }
+
+  .logout-button {
+    font-size: 1.2rem;
+    padding: 4px 10px;
+  }
+
+  .login-link {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+  }
 }
+
+
+
+
